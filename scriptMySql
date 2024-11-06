@@ -1,0 +1,19 @@
+create table produto (
+	codigo int not null auto_increment,
+	nome varchar(100) not null,
+	valor decimal(10, 2) not null,
+	primary key (codigo)
+)
+
+SELECT * from produto p 
+
+INSERT into produto (nome, valor) value 
+('Corta Vento Nike', 85.00),
+('Bobojaco lacoste', 390.00),
+('Tenis Nike Alpha trainer 5 Branco', 429.00),
+('Camisa Adidas', 100.00)
+
+SELECT * FROM produto p 
+
+
+

@@ -1,0 +1,7 @@
+iniciar um projeto :
+                    npm init -y(para iniciar o programa)
+
+
+dependencias pra isntalar :
+                         express = npm install express
+                         
